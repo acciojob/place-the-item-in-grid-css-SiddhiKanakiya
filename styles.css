@@ -1,2 +1,15 @@
-
 /* Your CSS Code here. */
+
+.holder{
+    display: grid;
+    grid-template-rows: repeat(2,200px);
+    grid-template-columns: repeat(2,200px);
+    /* row-gap: 10px;
+    column-gap: 10px; */
+}
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+} */
